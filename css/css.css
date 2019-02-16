@@ -1,0 +1,406 @@
+@charset "UTF-8";
+
+html{
+    background-color:white;
+}
+
+footer, article, aside {
+	padding: 20px;
+    padding-bottom: 10px;
+}
+
+article{
+    text-align: justify;
+}
+
+h2 {
+	margin: 10px;
+    margin-left: 25px;
+}
+
+p {
+	margin: 5px 0;
+}
+
+a{
+    color:#469;
+    text-decoration: underline;
+}
+
+figcaption{
+    color: #666;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+strong{
+    font-weight: bold;
+    color: #469;
+}
+
+main a:hover{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+main a:visited{
+    color: darkred;
+}
+
+nav li {
+	margin: 10px 0;
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul>li>ul>li{
+    list-style-type: disc;
+}
+
+header {
+	background-color:#469;
+}
+
+h1, h2 {
+	font-family: "Eras ITC", Eras Demi ITC ,sans-serif;
+}
+
+h1 {
+    padding: 15px;
+    color: #FFF;
+	font-size: 160%;
+	line-height: 1.8em;
+	text-align: center;
+    clear: right;
+    overflow: hidden;
+}
+
+#martinilogo{
+    padding-left: 50px;
+}
+
+#projectlogo{
+    float: right;
+    padding-right: 50px;
+}
+
+header nav ul li {
+    text-align: center;
+    line-height: 27px;
+    margin: 0px;
+    margin-top:1px;
+}
+
+
+header nav ul li a:hover{
+    color:black;
+    background-color: #EEE;
+    font-weight: bold;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 1px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+
+h2 {
+	font-size: 1.2em;
+}
+
+
+nav a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#racingStripes{
+    width:100%;
+    height: 20px;
+    display: block;
+}
+
+#martiniAuto{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+}
+
+
+main+aside {
+	background-color: #E2E3E4;
+}
+
+main>article{
+    padding-top: 10px;
+    text-align: justify;
+}
+
+main ul {
+    list-style-type: circle;
+    list-style-position: outside;
+    padding: 7px;
+    margin-left: 25px;
+    line-height: 1.4;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 2px;
+    border: 0px;
+    background-color: darkgoldenrod;
+}
+
+aside {
+    display: inline-block;
+	font-size: 0.9em;
+    border: 3px;
+    border-style: solid;
+    border-color:#469;
+    padding:7px;
+    text-align: justify;
+}
+
+#asidehr{
+        height: 0px;
+}
+
+
+p, aside {
+	line-height: 1.4;
+}
+
+aside h2 {
+	font-size: 125%;
+}
+
+#historymain img{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+figure{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #888;
+}
+
+input, select, textarea{
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    box-sizing: border-box;
+}
+
+#knop{
+    width:50px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+label{
+    display: inline-block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+footer {
+	background-color: #777;
+	color: #FFF;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer p {
+    line-height: 1.4;
+}
+
+#facebook{
+    padding: 0px;
+    height: 20px;
+}
+
+#facebook a{
+    display: block;
+    height: 20px;
+}
+
+footer strong{
+    color: white;
+}
+
+@media screen and (min-width: 690px) {
+    
+    html{
+        background-color:#ddd;
+    }
+    
+    body {
+        background-color:white;
+    }
+    
+    header nav ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        display:flex;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 5px;
+    }
+    
+    #maintext{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 7px 1fr 7px;
+        grid-column-gap: 0px;
+        text-align: justify;
+    }
+    
+    #mainhr{
+        display: none;
+    }
+    
+    #asidehr{
+        margin-left: 15%;
+        margin-right: 15%;
+        height: 2px;
+        border: 0px;
+        background-color: darkgoldenrod;
+    }
+    
+    #introduction{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end:3;
+        border-right: 1px;
+        padding-right: 20px;
+        border-right-style: solid;
+        border-right-color: darkgoldenrod;
+    }
+    
+    #helpneeded{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end:3;
+        border-left: 1px;
+        padding-left: 20px;
+        border-left-style: solid;
+        border-left-color: darkgoldenrod;
+    }
+    
+    #gallery{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 220px 220px 220px;
+        grid-column-gap: 25px;
+        grid-row-gap: 32px;
+        text-align: justify;
+        display: grid;
+    }
+    
+    figure{
+        align-self: center;
+        border-bottom: none;
+    }
+    
+    aside h2{
+        text-align: center;
+    }
+    
+    aside {
+        display: inline;
+        font-size: 0.9em;
+        border: 0px;
+        padding:0px;
+        text-align: center;
+    }
+    
+    #historymain article{
+        clear: both;
+        overflow: auto;
+    }
+    
+    #historymain h2{
+        padding: 10px;
+        padding-left: 150px;
+        text-align: left;
+    }
+    
+    #historyfase2 h2 {
+        padding: 10px;
+        padding-right: 150px;
+        text-align: right
+    }
+    
+    .right{
+        float:right;
+        padding-left: 25px;
+        padding-right: 10px;
+    }
+    
+    .left{
+        float: left;
+        padding-right: 25px;
+        padding-left: 10px;
+    }
+    
+    input, select, textarea {
+        display: inline-block;
+        width: 70%;
+        margin-left: 0px;
+    }
+    
+    label {
+        display: inline-block;
+        width: 15%;
+        text-align: right;
+        box-sizing: border-box;
+        padding: 10px
+    }
+    
+    footer div {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1100px){
+    
+        body {
+            width: 1100px;
+            margin: auto;
+        }
+}
+    
+
+
